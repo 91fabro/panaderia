@@ -1,0 +1,47 @@
+ <style type="text/css">
+	  	* {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+.capita {
+	position: absolute;
+	top: 3px;
+left: 500px;
+}
+.capita2 {
+	position: absolute;
+	top: 50%;
+  /*left: 700px;*/
+}
+.mitabla {
+	position: absolute;
+	/*top: 100px;*/
+	left: 10px;
+
+}
+.mitabla2 {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: -moz-available;
+
+}
+.capita3 {
+	position: absolute;
+	top: 800px;
+left: 110px;
+}
+.mitabla3 {
+	position: absolute;
+	/*top: 100px;*/
+	left: 10px;
+
+}
+.capita4 {
+	position: absolute;
+	top: 600px;
+left: 1100px;
+
+
+	  </style>

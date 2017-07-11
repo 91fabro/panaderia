@@ -1,0 +1,131 @@
+
+/* ARRIBA */
+.arrowTop{
+ position:relative;
+ margin: 20px;
+ width:38px;
+ height: 48px;
+ background: #d1d1d1;
+ border:solid 1px #999;
+ float: left;
+}
+
+.arrowTop:before, .arrowTop:after {
+ border-left: 20px solid transparent;
+ border-right: 20px solid transparent;
+ left: -1px;
+ content: " ";
+ position: absolute;
+ display: block;
+ width: 0;
+ height: 0;  
+ }
+ .arrowTop:after {
+ border-bottom: 16px solid #d1d1d1;
+ top: -15px;
+ z-index: 2;
+ }
+ 
+.arrowTop:before {
+ border-bottom: 16px solid #999;
+ top: -16px;
+ z-index: 1;
+ }
+ 
+/* RIGHT ARROW */
+.arrowRight{
+ position:relative;
+ margin: 20px;
+ width:48px;
+ height: 38px;
+ background: #d1d1d1;
+ border:solid 1px #999;
+ float: left;
+}
+
+ .arrowRight:before, .arrowRight:after {
+ border-bottom: 20px solid transparent;
+ border-top: 20px solid transparent;
+ top:-1px;
+ content: " ";
+ position: absolute;
+ display: block;
+ width: 0;
+ height: 0;   
+ }
+ .arrowRight:after {
+ border-left: 16px solid #d1d1d1;
+ right: -15px;
+ z-index: 2;
+ }
+ 
+.arrowRight:before {
+ border-left: 16px solid #999;
+ right: -16px;
+ z-index: 1;
+ }
+ 
+/* BOTTOM ARROW */
+.arrowBottom{
+ position:relative;
+ margin: 20px;
+ width:38px;
+ height: 48px;
+ background: #d1d1d1;
+ border:solid 1px #999;
+ float: left;
+}
+
+.arrowBottom:before, .arrowBottom:after {
+ border-left: 20px solid transparent;
+ border-right: 20px solid transparent;
+ left: -1px;
+ content: " ";
+ position: absolute;
+ display: block;
+ width: 0;
+ height: 0;   
+ }
+ .arrowBottom:after {
+ border-top: 16px solid #d1d1d1;
+ bottom: -16px;
+ z-index: 2;
+ }
+ .arrowBottom:before {
+ border-top: 16px solid #999;
+ bottom: -17px;
+ z-index: 1;
+ }
+ 
+/* LEFT ARROW */
+.arrowLeft{
+ position:relative;
+ margin: 20px;
+ width:48px;
+ height: 38px;
+ background: #d1d1d1;
+ border:solid 1px #999;
+ float: left;
+}
+
+ .arrowLeft:before, .arrowLeft:after {
+ border-top: 20px solid transparent;
+ border-bottom: 20px solid transparent;
+ top:-1px;
+ content: " ";
+ position: absolute;
+ display: block;
+ width: 0;
+ height: 0;     
+ }
+ .arrowLeft:after {
+ border-right: 16px solid #d1d1d1;
+ left: -15px;
+ z-index: 2;
+ }
+ .arrowLeft:before {
+ border-right: 16px solid #999;
+ left: -16px;
+ z-index: 1;
+ }
+ 

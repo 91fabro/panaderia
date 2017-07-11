@@ -1,0 +1,10 @@
+footer {
+  background-color: #0BAFDC;
+  position: absolute;
+  border-top-right-radius: 60px;
+
+  bottom: 0;
+  width: 80%;
+  height: 80px;
+  color: white;
+}
